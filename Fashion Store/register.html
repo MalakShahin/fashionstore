@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>register</title>
+        <style>
+            .body{background-image: url(wall2.jpg) ;
+            background-size: cover;
+            font-family:cursive;
+            color: #414c60;
+            }
+            .fieldset{
+            width: 1380px;
+            }
+            .legend{
+            color: brown;
+            }
+            .c1 a{
+                margin-left: 290px;
+                font-size: 22px;
+                color: #648d92;
+                text-decoration: none;
+                font-family:cursive;
+            }
+            .c1 a:hover{
+                color: rgb(160, 88, 88);
+                text-decoration: underline;
+                font-family: cursive;
+            }
+            .c2{
+            float:right ;
+            display: inline; 
+            position:fixed ; 
+            margin-left: 1420px; 
+            margin-top:15px
+            }
+    </style>
+    </head>
+    <body class="body">
+        <img src="1.png" alt="logo" width="75px" height="75px">
+        <div class="c1">
+            <a href="login.html">Login</a>
+            <a href="gallary.html">gallary</a>
+            <a href="beauty.html">Beauty</a>
+        </div>
+        <div class="c2">
+            <a href="mailto:fashionstore@gmail.com" style="display:block ;">
+                <img src="mail.png" width="40px" height="40px">
+            </a><br>
+            <a href="tel:+201054863254" style="display:block ;">
+                <img src="phone.png" width="40px" height="40px">
+            </a><br>
+            <a href="https://www.facebook.com/" style="display:block ;">
+                <img src="facebook.png" width="40px" height="40px ">
+            </a><br>
+            <a href="https://www.instagram.com/" style="display:block ;">
+                <img src="instagram.png" width="40px" height="40px">
+            </a><br>
+        </div>
+            <form action="Login.html">
+                <fieldset class="fieldset">
+                    <legend class="legend">Registeration</legend>
+                    <pre style="font-family:cursive;">
+                    <br>First Name :    <input type="text" required><br>
+                    <br>Last Name  :    <input type="text" required><br>
+                    <br>Email :             <input type="email" required><br>
+                    <br>Password :       <input type="password" required><br>
+                    <br>Gender :        <input type="radio" name="1" required> Male<br>
+                     <input type="radio" name="1" required> Female<br>
+                    <br>Country :           <select>
+                            <option>Egypt</option>
+                            <option>USA</option>
+                        </select><br>
+                    <br>Compliment :    <textarea style="width:250px ; height:50px"></textarea><br>
+                    <input type="submit" value="Register" style="color: brown;">
+                    </pre>
+                </fieldset>
+            </form>
+    </body>
+</html>
