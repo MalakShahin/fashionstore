@@ -1,5 +1,21 @@
 # fashionstore
 
+A responsive fashion e-commerce website built using HTML and CSS. This project showcases a modern clothing 
+store interface with product listings, navigation, and visual appeal.
+
+**Features**
+Responsive design that works on mobile, tablet, and desktop
+Clean, modern UI with attractive product displays
+Navigation menu with categories
+Product grid layout
+Hover effects on products
+Footer with company information
+
+**Used**
+HTML5
+CSS3 (including Flexbox and Grid)
+Responsive design principles
+No JavaScript (pure HTML/CSS implementation)
 
 
 
