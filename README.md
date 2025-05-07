@@ -26,8 +26,7 @@ store interface with product listings, navigation, and visual appeal.
 
 # structure
 
-
-fashion-store/  
+``` 
 ├── index.html         
 ├── login.html           
 ├── register.html       
@@ -42,7 +41,7 @@ fashion-store/
 │   ├── images/          
 │   └── icons/          
 └── README.md  
-
+```
 ---
 
 ![Image](https://github.com/user-attachments/assets/9530cd64-ff29-4054-ba5c-31bbb6dcbc2a)
